@@ -3,4 +3,15 @@
     <string name="abrir_relative_layout">Abrir relative layout</string>
     <string name="sair">Sair</string>
     <string name="um_texto_de_exemplo">Um texto de exemplo</string>
+    <string name="abrir_frame_layout">Abrir Frame Layout</string>
+    <string name="digite_seu_usu_rio">Digite seu usuário</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="login">Login</string>
+    <string name="abrir_absolute_layout">Abrir Absolute Layout</string>
+    <string name="sair2">Sair</string>
+    <string name="ok">Ok</string>
+    <string name="abrir_table_layout">Abrir Table Layout</string>
+    <string name="bot_o_3">Botão 3</string>
+    <string name="bot_o_2">Botão 2</string>
+    <string name="bot_o_1">Botão 1</string>
 </resources>

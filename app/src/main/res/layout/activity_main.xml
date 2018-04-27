@@ -11,7 +11,21 @@
         android:text="@string/abrir_relative_layout"
         android:onClick="abrirRelativeLayout"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir_frame_layout"
+        android:onClick="abrirFrameLayout"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir_absolute_layout"
+        android:onClick="abrirAbsoluteLayout"/>
 
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir_table_layout"
+        android:onClick="abrirTableLayout"/>
 </LinearLayout>
