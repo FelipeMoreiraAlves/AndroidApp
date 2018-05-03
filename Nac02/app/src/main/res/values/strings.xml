@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cardápio Digital</string>
+    <string name="burguer_fiap">Burguer Fiap</string>
+    <string name="x_burguer_simples">X-Burguer Simples</string>
+    <string name="duplo_burguer">Duplo Burguer</string>
+    <string name="combo_p_prica_especial">Combo Páprica Especial</string>
+    <string name="mais_informações">+</string>
+    <string name="batata_m_dia">Batata média</string>
+    <string name="refrigerante_500ml">Refrigerante 500ml</string>
+    <string name="adicionais">Adicionais</string>
+    <string name="sorvete_casquinha">Sorvete casquinha</string>
+    <string name="comprar">Comprar</string>
+    <string name="total">Total</string>
+    <string name="r_00_00">R$ 00,00</string>
+</resources>

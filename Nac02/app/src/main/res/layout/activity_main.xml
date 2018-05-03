@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_padrao"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/burguer_fiap"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top"
+            android:id="@+id/rdgLanches">
+
+            <RadioButton
+                android:id="@+id/rbtSimples"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/x_burguer_simples"
+                android:textSize="24sp"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="@string/mais_informações"
+                android:id="@+id/btnSimples"
+                android:onClick="simples"/>
+
+            <RadioButton
+                android:id="@+id/rbtDuplo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/duplo_burguer"
+                android:textSize="24sp"
+                />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="@string/mais_informações"
+                android:id="@+id/btnDuplo"
+                android:onClick="duplo"/>
+
+            <RadioButton
+                android:id="@+id/rbtCombo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/combo_p_prica_especial"
+                android:textSize="24sp"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="@string/mais_informações"
+                android:id="@+id/btnCombo"
+                android:onClick="combo"/>
+
+        </RadioGroup>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adicionais"
+        android:textSize="32sp"
+        android:paddingBottom="16dp"
+        />
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/spnAdicionais"></Spinner>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/comprar"
+        android:onClick="comprar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/r_00_00"
+        android:textSize="24sp"
+        android:id="@+id/txtRes"/>
+
+</LinearLayout>
